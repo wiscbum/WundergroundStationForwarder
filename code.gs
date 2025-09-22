@@ -7,7 +7,7 @@
 
 // Getting data
 
-const datasource = 'weatherflow'; // 'ibm' (wunderground), 'acurite' (myacurite), 'davis' (weatherlink), 'weatherflow' (tempestwx), 'ambient' (ambient weather), 'ecowitt', 'aprs' (aprs.fi), or 'custom' (custom webhook in rtl_433 format)
+const datasource = 'weatherflow';
 
 const ibmAPIKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 const ibmStationID = 'KXXXXXXXXXX';
@@ -21,8 +21,8 @@ const davisApiKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 const davisApiSecret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 const davisStationName = 'xxxxxxxxxxxxxxxx';
 // or
-const weatherflowPUT = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx';
-const weatherflowStationId = 'xxxxx';
+const weatherflowPUT = '90f1f066-68b8-4488-aa86-57e22ce337df';
+const weatherflowStationId = '93841';
 // or
 const ambientWeatherStationName = 'xxxxxx';
 const ambientWeatherApiKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
